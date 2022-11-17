@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>he he</title>
+</head>
+
+<body>
+<button onclick="bruh()">Click</button>
+<script>
+function bruh() {
+fetch("https://stats.app.senecalearning.com/api/stats/sessions", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+    "access-key": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSGVucnkgQmFybmVzIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hLS9BT2gxNEdnU1puOG5JcC1rZUJtY1pJMTlEOVJkb1ZRXy1HRU9RZ1hMRkZJQWluUmxiRUprZzExWWJnSWQ4WDNzZW90Q1haSExPc0ZtajlKOFNFYWxmcDNLcnVLTkUyd2J5NkZFNFhMM2JnYmxDUVdHaE9Jb3VnbEI5Vk9WT1REYWZ6cGRTd0dQM1l1dUxNRVl3cWNvYzVtcGhpSzRoU2xCdVB1ZWhzUEp3WWhuc0pYWDdFTWJvSk5kZG5HU1VNaHRibWhOcm5sVlcxb3VXTnlGSlk1ZjFjZEh5cDg4QjVYdzBjWFkxRjNzVjVUWl92Z2JpY2Q4cGpJR0dVRFRRQ2hwWDBkZk5LcnVCRVRUQXN6YVkxQm5neWdxRks0RnpDZmFTOE9rZlY2bEhPMm02QVJndWk3eFJyVF9fTlRWU1J3bllyM3JWc0pDNjU2dzYzSEpnaV82bjlJZF9UTEdzclVFS0RHVEc0X0lueFdMN2hOOWM3MnR5b0F5Ql8xYWxoSkRDd3kyMXVNbk80aDQwWGNSamQ2SWpxZGxPTTl4MlZ1U25QQ1g2aGM3YTNmSVRLRDZvNF9EVVR0UWFnWXdQTUFzUlZ1OW1ISi1pNl9pUmttUHc2NGRqMFdZUUJ0SDFNNDQ1a21zRXV6TjVBSVI1aXJBZkx5ZzdaUGRrckV3c3V0U0k0eTcyd3B3WTNJbXFMVFYxSmh4YkphbkJkWk5teVRqNnFYRHdLYVdnMW93ekc4dXNkcTYzbXhMa3dyQUhTUXFlRXU4YVdleHp0Uk5VMFZBTVNRbmpWd19uX3NxSTlXWVdUSXlNNElSLWhwa25aUERCMFdvQmxaaEhRR2hHbFRkY2ZTejQ0cmtLSlZNOUZtRUVRTzlfdG1DWGFKajBjbWlmaGVrYUhnUDZlTE9SYW9DSXhLT0xlelJ3dUZmOURuTEN4ZGhpamtVcWhoM0lGVVRPTVZaR3hza01GcHk5VTVjdVRsSFYwREFNcTREd0ozbnVkdzJBX1ExWFlBVGZvcU5YYjdkbm9sTndMcz1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9zZW5lY2EtYXV0aC1wcm9kdWN0aW9uIiwiYXVkIjoic2VuZWNhLWF1dGgtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTY2ODY4NTQzMSwidXNlcl9pZCI6ImEzZGVmNmIzLTE5NTQtNDYxMS04M2M5LWYwZGEyNTAyMjVmMSIsInN1YiI6ImEzZGVmNmIzLTE5NTQtNDYxMS04M2M5LWYwZGEyNTAyMjVmMSIsImlhdCI6MTY2ODY4NTQzMSwiZXhwIjoxNjY4Njg5MDMxLCJlbWFpbCI6ImhiYXJuZXM2Z2xAeWFyZS1lZHUub3JnLnVrIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTM0MTQ2NTA2MDQ4NTk5NDcxMTkiXSwiZW1haWwiOlsiaGJhcm5lczZnbEB5YXJlLWVkdS5vcmcudWsiXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.X80jqJfr4fKL5H48Cbq6Q1Hq-mrdDlL8jbMnOqlVyIx0Lw-z5QGTrN6Zc7Pu5haz25jMGH25hhjE_Y6l61FYyGslFiNgb3Vs2aB57c6CbiUDR0mH1nn3f-zWQL7Ly1aMk3labjKzUbJm6mQy1AZrlrQl6TbXCAu9Jgo3VzW5QeUW0F4H6Rp3R9H9q1AIjJDVGDNKtvzcqfGvsGVQX84TI5zWRD6BtiBMapAG10TTqK763IcUcxmuoZkKGmQoMdrRa_YNGyGWNoolrr33Jzx8u773RimoXpSgiiO16SceW7bQ0YqPDbXIg1gjdkSJGADrvL7rMHw7feGRqmOsjOfwcg",
+    "content-type": "application/json",
+    "correlationid": "1668685521200::70cad563211e85235313a7fd72dab5d2",
+    "sec-ch-ua": "\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "user-region": "GB",
+    "x-amz-date": "20221117T114521Z"
+  },
+  "referrer": "https://app.senecalearning.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"platform\":\"seneca-web\",\"clientVersion\":\"2.8.109\",\"session\":{\"sessionId\":\"23661b2c-d5a0-4e0c-aa10-37046ffc1d2a\",\"sessionType\":\"wrongAnswers\",\"courseId\":\"891f0540-1d79-11e8-a6da-15f18bba751c\",\"sectionIds\":[\"faf13ed0-1d7a-11e8-a6da-15f18bba751c\"],\"contentIds\":[],\"modulesStudied\":2,\"modulesTested\":2,\"modulesCorrect\":1,\"modulesIncorrect\":1,\"modulesGaveUp\":1,\"averageScore\":0.75,\"sessionScore\":1,\"timeStarted\":\"2022-11-17T11:44:45+00:00\",\"timeFinished\":\"2022-11-17T11:45:21+00:00\",\"startingProficiency\":4.842894457161791e-7,\"endingProficiency\":0.97,\"startingCourseProficiency\":0.07140800465450674,\"endingCourseProficiency\":0.6599176954732511,\"endingCourseScore\":0.6290001935733642,\"completed\":true,\"smartLearningActive\":false,\"signedOut\":false,\"wrongModuleIds\":[],\"totalModulesStudyTime\":0},\"modules\":[{\"sessionId\":\"23661b2c-d5a0-4e0c-aa10-37046ffc1d2a\",\"moduleOrder\":0,\"courseId\":\"891f0540-1d79-11e8-a6da-15f18bba751c\",\"sectionId\":\"faf13ed0-1d7a-11e8-a6da-15f18bba751c\",\"contentId\":\"e1c5b4d0-1d80-11e8-a6da-15f18bba751c\",\"moduleId\":\"e1c5b4d2-1d80-11e8-a6da-15f18bba751c\",\"moduleType\":\"mindmap\",\"testingActive\":true,\"content\":{\"pretest\":\"NEVER\",\"list\":{\"statement\":\"Lifestyle risk factors for cancer:\",\"values\":[{\"value\":[{\"otherPermittedWords\":[],\"word\":\"obesity\",\"caps\":\"Obesity\"}],\"testing\":true},{\"value\":[{\"otherPermittedWords\":[\"ultraviolet\"],\"word\":\"uv\",\"caps\":\"UV\"},\" exposure\"],\"testing\":true},{\"value\":[{\"otherPermittedWords\":[],\"word\":\"smoking\",\"caps\":\"Smoking\"}],\"testing\":false}]}},\"userAnswer\":{\"multipleChoice\":{\"index\":null},\"list\":[\"uv\",\"radiation\"]},\"score\":0.5,\"moduleScore\":{\"score\":0.5,\"multipleChoice\":{\"score\":0},\"list\":{\"score\":0.5,\"hits\":[false,true,false]}},\"timeStarted\":\"2022-11-17T11:44:54+00:00\",\"timeFinished\":\"2022-11-17T11:45:04+00:00\",\"gaveUp\":true,\"submitted\":false,\"completed\":true},{\"sessionId\":\"23661b2c-d5a0-4e0c-aa10-37046ffc1d2a\",\"moduleOrder\":1,\"courseId\":\"891f0540-1d79-11e8-a6da-15f18bba751c\",\"sectionId\":\"faf13ed0-1d7a-11e8-a6da-15f18bba751c\",\"contentId\":\"e1c5b4d0-1d80-11e8-a6da-15f18bba751c\",\"moduleId\":\"e1c5b4d2-1d80-11e8-a6da-15f18bba751c\",\"moduleType\":\"mindmap\",\"testingActive\":true,\"content\":{\"pretest\":\"NEVER\",\"list\":{\"statement\":\"Lifestyle risk factors for cancer:\",\"values\":[{\"value\":[{\"otherPermittedWords\":[],\"word\":\"smoking\",\"caps\":\"Smoking\"}],\"testing\":true},{\"value\":[{\"otherPermittedWords\":[\"ultraviolet\"],\"word\":\"uv\",\"caps\":\"UV\"},\" exposure\"],\"testing\":true},{\"value\":[{\"otherPermittedWords\":[],\"word\":\"obesity\",\"caps\":\"Obesity\"}],\"testing\":false}]}},\"userAnswer\":{\"multipleChoice\":{\"index\":null},\"list\":[\"uv\",\"Smoking\"]},\"score\":1,\"moduleScore\":{\"score\":1,\"multipleChoice\":{\"score\":0},\"list\":{\"score\":1,\"hits\":[true,true,false]}},\"timeStarted\":\"2022-11-17T11:45:04+00:00\",\"timeFinished\":\"2022-11-17T11:45:21+00:00\",\"gaveUp\":false,\"submitted\":true,\"completed\":true}]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "omit"
+});
+}
+</script>
+
+</body>
+
+</html>
